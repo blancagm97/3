@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Broom</title>
+    <style type="text/css">
+        
+           @font-face{
+           font-family:'coochie';
+           src:url('fonts/coochie/Coochie.woff2'),
+               url('fonts/coochie/Coochie.woff'),
+               url('fonts/coochie/Coochie.ttf'),
+               url('fonts/coochie/Coochie.svg'),
+               url('fonts/coochie/Coochie.eot');
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body>h1{
+            position: fixed;
+            font-family: 'coochie';
+            font-size: 15vw;
+        }
+        h1[title="B1"]{
+            top:0;
+            left: 0;
+        }
+        h1[title="B2"]{
+            top: 0;
+            right: 0;
+            transform: rotate(180deg);
+        }
+        h1[title="M1"]{
+            transform: scale(-1,1);
+            left: 0;
+            bottom: 0;
+        }
+        h1[title="M2"]{
+            bottom: 0;
+            right: 0;
+        }
+        h1[title="o0"]{
+            top: 40%;
+            right: 44%;
+        }
+        h1[title="R1"]{
+            font-size: 15vw;
+            top: 25%;
+            right: 15%;
+        }
+        h1[title="R2"]{
+            font-size: 15vw;
+            top: 25%;
+            left: 15%;    
+        }
+        h1[title="o1"]{
+            font-size: 15vw;
+            bottom: 25%;
+            right: 15%;
+        }
+        h1[title="o2"]{
+            font-size: 15vw;
+            bottom: 25%;
+            left: 15%;
+            transform: rotate (180deg);
+        }
+        div p{
+            font-family: "Georgia";   
+        }
+        div p:first-child{
+            position: absolute;
+            font-size: 40px;
+            left: 0;
+            top: 0;
+        }
+        div p:last-child{
+            position: absolute;
+            font-size: 120px;
+            right: -9px;
+            top: -2px;  
+        }
+        div[title="c1"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 0;
+            left: 45%;
+        }
+        div[title="c2"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 45%;
+            right: 0;
+            transform: rotate(180deg);
+        }
+           div[title="c3"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            bottom: 5%;
+            right: 45%;
+        }
+          div[title="c4"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 45%;
+            left: 0;
+            transform: rotate(180deg);
+            
+      </style>     
+</head>
+<body>
+    <h1 title="B1">B</h1>
+    <h1 title="B2">B</h1>
+    <h1 title="o0">o</h1>
+    <h1 title="M1">M</h1>
+    <h1 title="M2">M</h1>
+    <h1 title="R1">R</h1>
+    <h1 title="R2">R</h1>
+    <h1 title="o1">o</h1>
+    <h1 title="o2">o</h1>
+    <div title="c1">
+        <p>vol.</p>
+        <p>6</p>
+    </div>
+     <div title="c2">
+        <p>vol.</p>
+        <p>6</p>
+    </div>
+    <div title="c3">
+        <p>NO.</p>
+        <p>1</p>
+    </div>
+    <div title="c4">
+        <p>NO.</p>
+        <p>1</p>
+    </div>
+</body>
+</html>
